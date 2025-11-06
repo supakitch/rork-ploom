@@ -27,7 +27,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
         <View>
-          <Text style={styles.greeting}>Hello, {user?.fullName?.split(' ')[0] || 'Storyteller'}!</Text>
+          <Text style={styles.greeting}>Hi, {user?.fullName?.split(' ')[0] || 'Storyteller'}!</Text>
           <Text style={styles.subtitle}>What story shall we create today?</Text>
         </View>
       </View>
